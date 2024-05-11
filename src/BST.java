@@ -206,18 +206,4 @@ public class BST<K extends Comparable<K>, V> implements Iterable<K> {
             return queue.dequeue();
         }
     }
-
-    private class MyQueue<K> {
-        public void enqueue(K key) {
-            return;
-        }
-
-        public boolean isEmpty() {
-            return false;
-        }
-
-        public K dequeue() {
-            return null;
-        }
-    }
 }
